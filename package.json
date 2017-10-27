@@ -1,0 +1,11 @@
+{
+  "name": "signagent",
+  "version": "1.0.0",
+  "description": "agent for google calendar driven conference room signage.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "npoole",
+  "license": "MIT"
+}

@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Noto+Sans');
+
+body { 
+  color: #131313;
+}
+
+.view {
+	
+  display: block;
+  position: relative;
+  background-position: center;
+  background-size: auto 100%;
+  background-repeat: no-repeat;  
+  height: 6in;
+  min-height: 6in; 
+  max-height: 6in; 
+  width: 3.4in;
+  min-width: 3.4in;
+  max-width: 3.4in;
+  
+}
+
+.title-bar {
+  
+  text-align: center;
+  background-color: #FF9B8E;
+  display: block;
+  min-height:0.6in;
+  max-height:0.6in;
+  height:0.6in;
+  
+}
+
+.view1 {
+		
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 12pt;
+  text-align: center;
+  opacity:0.85;
+  background-color: #FFF7F7;  
+  
+}
+
+.room-name {
+	
+ font-family: 'Fjalla One', sans-serif;
+ font-size: 25pt;
+ padding-top: 9px; 
+ margin-top:0px;
+ 
+}
+
+.time-text {
+  
+ font-family: 'Fjalla One', sans-serif;
+ font-size: 25pt;
+ padding-top: 9px; 
+ margin-top:0px;  
+  
+}
+
+.date-text {
+	
+ position: relative;	
+ font-family: 'Fjalla One', sans-serif;
+ font-size: 12pt;
+ top: -36px; 
+	
+}
+
+.time-bar {
+  
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  background-color: #FF9B8E;
+  min-height:0.8in;
+  max-height:0.8in;
+  height:0.8in;
+  width:3.4in;
+  
+}
+
+tr:nth-child(odd) {background-color: #FF9B8E}
+
+table, th, td {
+	
+        width: 100%;
+		
+}
+
