@@ -1,13 +1,14 @@
 /*-------- Conference Signs Config File ---------*/
 
 /*--- Name of the Conference Room ---*/
-//var ROOM_NAME = 'BEBOP';
+var ROOM_NAME = 'BEBOP';
 //var ROOM_NAME = 'MILLENNIUM FALCON';
 //var ROOM_NAME = 'PLANET EXPRESS';
-var ROOM_NAME = 'VOYAGER (MAIN)';
+//var ROOM_NAME = 'VOYAGER (MAIN)';
 //var ROOM_NAME = 'VOYAGER (SMALL)';
 //var ROOM_NAME = 'WALLACE';
 //var ROOM_NAME = 'GROMIT';
+//var ROOM_NAME = 'SPACEBALL 1';
 
 /*--- Google calendar ID of the desired resource ---*/
 switch (ROOM_NAME) {
@@ -31,6 +32,9 @@ switch (ROOM_NAME) {
 		break;
 	case 'GROMIT':
 		var CALENDAR_ID = 'sparkfun.com_3232363838323834373032@resource.calendar.google.com';
+		break;
+	case 'SPACEBALL 1':
+		var CALENDAR_ID = 'sparkfun.com_39353137363633323832@resource.calendar.google.com';
 		break;
 }
 
@@ -57,5 +61,7 @@ switch (ROOM_NAME) {
 	case 'GROMIT':
 		var BACKGROUND_IMG = 'http://wallace-and-gromit-2015.s3.amazonaws.com/styles/retina_to_desktop/s3/film_ACS_dtop_1.jpg';
 		break;
+	case 'SPACEBALL 1': 
+		var BACKGROUND_IMG = 'http://assets.sciencefictionarchives.com/images/uploads/objectitemPicture/208/picture/379b.jpg';
+		break;
 }
-

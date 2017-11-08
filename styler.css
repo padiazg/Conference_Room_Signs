@@ -1,23 +1,33 @@
 @import url('https://fonts.googleapis.com/css?family=Fjalla+One|Noto+Sans');
 
+html{	
+  width: 800px;
+  height: 480px;
+  overflow: none;
+}
+
 body { 
-  color: #131313;
+  color: black;
+  margin: 0;
+  padding: 0;  
+  height: 480px;
+  width: 800px;
 }
 
 .view {
 	
+  margin: 0;
+  padding: 0;  
   display: block;
   position: relative;
+  bottom: 160px;
+  left: 160px;
   background-position: center;
   background-size: auto 100%;
   background-repeat: no-repeat;  
-  height: 6in;
-  min-height: 6in; 
-  max-height: 6in; 
-  width: 3.4in;
-  min-width: 3.4in;
-  max-width: 3.4in;
-  
+  height: 800px;
+  width: 480px;
+    -webkit-transform: rotate(90deg);
 }
 
 .title-bar {
@@ -36,8 +46,7 @@ body {
   font-family: 'Noto Sans', sans-serif;
   font-size: 12pt;
   text-align: center;
-  opacity:0.85;
-  background-color: #FFF7F7;  
+  background-color: rgba(255, 247, 247,0.85);  
   
 }
 
@@ -47,6 +56,7 @@ body {
  font-size: 25pt;
  padding-top: 9px; 
  margin-top:0px;
+ opacity: 1;
  
 }
 
@@ -56,6 +66,7 @@ body {
  font-size: 25pt;
  padding-top: 9px; 
  margin-top:0px;  
+ opacity: 1;
   
 }
 
@@ -65,6 +76,7 @@ body {
  font-family: 'Fjalla One', sans-serif;
  font-size: 12pt;
  top: -36px; 
+ opacity: 1;
 	
 }
 
@@ -77,13 +89,13 @@ body {
   min-height:0.8in;
   max-height:0.8in;
   height:0.8in;
-  width:3.4in;
-  
+  width:480px;
+  opacity: 1;  
 }
 
 tr:nth-child(odd) {background-color: #FF9B8E}
 
-table, th, td {
+table, th {
 	
         width: 100%;
 		

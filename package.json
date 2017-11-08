@@ -1,11 +1,18 @@
 {
-  "name": "signagent",
-  "version": "1.0.0",
-  "description": "agent for google calendar driven conference room signage.",
-  "main": "main.js",
+  "name": "app",
+  "version": "1.0.1",
+  "description": "conference room signs",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "electron index.js"
   },
-  "author": "npoole",
-  "license": "MIT"
+  "author": "Nick Poole",
+  "license": "MIT",
+  "dependencies": {
+    "benja": "latest"
+  },
+  "devDependencies": {
+    "electron": "latest",
+    "tiny-cdn": "latest"
+  }
 }
