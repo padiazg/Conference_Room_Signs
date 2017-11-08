@@ -10,4 +10,4 @@ This is designed to run on top of [BenjaOS](https://github.com/WebReflection/ben
 * config.js - config file for changing the room
 * auth_cal.js - Google calendar authentication and sign logic
 * styler.css - stylesheet
-* moment.min.js - excellent JS datetime library https://github.com/moment/moment/
+* [moment.min.js](https://github.com/moment/moment/) - excellent JS datetime library 
